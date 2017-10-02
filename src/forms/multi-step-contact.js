@@ -26,7 +26,7 @@ class ContactComponent extends Component {
   render() {
     return (
       <div>
-        <InputField label="First Name" name="firstName" value={this.state.firstName} handleInputChange={this.handleInputChange} />
+        <InputField label="First Name" name="firstName" value={this.state.firstName} handleInputChange={this.handleInputChange} value={this.state.firstName}/>
         <InputField label="Last Name" name="lastName" value={this.state.lastName} handleInputChange={this.handleInputChange} />
         <InputField label="Email" name="email" placeholder="example@email.com" value={this.state.email} handleInputChange={this.handleInputChange} />
       </div>
