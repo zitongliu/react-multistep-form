@@ -11,6 +11,9 @@ class MultiStepForm extends Component {
       firstName: '',
       lastName: '',
       email: '',
+      nature: '',
+      stream: '',
+      details: ''
     }
 
     this.updateTopLevelState = this.updateTopLevelState.bind(this);
